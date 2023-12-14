@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Name: Shawn Burleigh
+         Date: 12-13-23-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shawn B Online Resume</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="scheduleform.html">Scheduling</a>
+  </nav>
+
+  <span onclick="openNav()" class="menu-icon"><i class="fas fa-bars"></i></span>
+
+  <header>
+    <a href="index.html">
+      <h1>Shawn Burleigh Online Resume</h1>
+    </a>
+    <p>A Little Bit About Me</p>
+  </header>
+  <section id="pgcontainer">
+  <h2>Bio</h2>
+
+    <section class="even">
+      <img style="border-radius: 15px; box-shadow: 9px 4px 9px rgb(46, 46, 46);" src="otm.jpg" alt="on the mountain">
+      <h2>About Me</h2>
+      <p>I am Shawn Burleigh, born in Tampa Fl, now living in Missouri. I am pursuing a CIS Degree at OTC, Love Traveling, Love learning, and love working. I am anticipating graduation in Fall 24' </p>
+    </section>
+    <section class="odd">
+      <img style="border-radius: 15px;" src="webss.png" alt="on the mountain">
+      <h3>Projects</h3> 
+      <p>I have worked on various projects so far. In the subject of web development, I've learned about bootstrap, wire-framing, and css styling. Most notably, I designed a website for a client which is pictured here it is all my own design.</p>
+    </section>
+    <section class="nicecards">
+      <h4>My Hobbies</h4>
+      <div class="product-container">
+       
+
+        <div class="product-card">
+          <div class="card-inner">
+              <div class="card-front">
+                  <img src="music.jpg" alt="Music Image">
+              </div>
+              <div class="card-back">
+                <img src="music.jpg" alt="Music Image">
+                  <h3>Music</h3>
+                  <p>I enjoy listening to and writing/recording songs in my free time.</p>
+              </div>
+          </div>
+      </div> 
+      
+   
+        <div class="product-card">
+          <div class="card-inner">
+              <div class="card-front">
+                  <img src="collage.jpg" alt="videogames">
+              </div>
+              <div class="card-back">
+                <img src="collage.jpg" alt="videogames">
+                  <h3>Video Games</h3>
+                  <p>I Like RPG games and also grind games, my favorite games are ones similar to the images above.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-inner">
+              <div class="card-front">
+                  <img src="learning.png" alt="bookie">
+              </div>
+              <div class="card-back">
+                <img src="learning.png" alt="bookie">
+                  <h3>Learning</h3>
+                  <p>I enjoy learning new things and researching different topics. Call me an information sponge.</p>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class="odd">
+      <img style="border-radius: 15px;" src="bby.png" alt="bookie">
+      <h5>Work</h5>
+      <p>Currently I work at Best Buy which is fun because it allows me to be around tech all day. I want to work in a field with computer systems, I'm not extremely picky with the direction that goes. Most of my experience comes from personal projects and school. Best Buy is the closest i've gotten to a tech job.</p>
+    </section>
+  </section>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "275px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <footer> © Shawn Burleigh</footer>
+</body>
+
+</html>
