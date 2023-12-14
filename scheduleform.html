@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Name: Shawn Burleigh
+         Date: 12-13-23-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheduling Page</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="scheduleform.html">Scheduling</a>
+  </nav>
+
+  <span onclick="openNav()" class="menu-icon"><i class="fas fa-bars"></i></span>
+
+  <header>
+    <a href="index.html">
+      <h1>Shawn Burleigh Online Resume</h1>
+    </a>
+    <p>I'm Actually a Doctor. Just kidding but I can make tables and forms.</p>
+  </header>
+  <section id="pgcontainer">
+    <h2>Sample Scheduling</h2>
+    <section class="even">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Time Slot</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 - 10:00</td>
+                    <td>Available</td>
+                    <td>Available</td>
+                    <td>Unavailable</td>
+                    <td>Available</td>
+                    <td>Unavailable</td>
+                    <td>Unavailable</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Available</td>
+                    <td>Unavailable</td>
+                    <td>Available</td>
+                    <td>Available</td>
+                    <td>Available</td>
+                    <td>Unavailable</td>
+                    <td>Unavailable</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    
+
+<section class="odd">
+    <div class="form-container">
+        <form action="thankyou.html" method="GET">
+            <h2>Schedule Your Appointment</h2>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <textarea name="message" placeholder="Additional Information"></textarea>
+            <button type="submit">Schedule Now</button>
+        </form>
+    </div>
+  </section>
+  </section>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "275px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <footer> © Shawn Burleigh</footer>
+</body>
+
+</html>
